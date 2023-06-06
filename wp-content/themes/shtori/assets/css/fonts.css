@@ -1,0 +1,69 @@
+/*@font-face {
+	font-family: 'Roboto';
+font-display: auto;
+src: url('../fonts/Roboto.ttf') format('TrueType'),
+	url('../fonts/Roboto.woff') format('woff'),
+		url('../fonts/Roboto.woff2') format('woff2');
+		}*/
+	
+/* Corbel */
+@font-face {
+		font-family: 'Corbel';
+		font-display: auto;
+		src: url('../fonts/Corbel/Corbel.eot');
+		src: local('Corbel'),
+			url('../fonts/Corbel/Corbel.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/Corbel/Corbel.woff') format('woff'),
+				url('../fonts/Corbel/Corbel.ttf') format('truetype');
+			font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Corbel';
+		font-display: auto;
+		src: url('../fonts/Corbel/Corbel-Bold.eot');
+		src: local('Corbel Bold'), local('Corbel-Bold'),
+			url('../fonts/Corbel/Corbel-Bold.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/Corbel/Corbel-Bold.woff') format('woff'),
+				url('../fonts/Corbel/Corbel-Bold.ttf') format('truetype');
+			font-weight: bold;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Corbel';
+		font-display: auto;
+		src: url('../fonts/Corbel/Corbel-Italic.eot');
+		src: local('Corbel Italic'), local('Corbel-Italic'),
+			url('../fonts/Corbel/Corbel-Italic.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/Corbel/Corbel-Italic.woff') format('woff'),
+				url('../fonts/Corbel/Corbel-Italic.ttf') format('truetype');
+			font-weight: normal;
+		font-style: italic;
+	}
+	@font-face {
+		font-family: 'Corbel';
+		font-display: auto;
+		src: url('../fonts/Corbel/Corbel-BoldItalic.eot');
+		src: local('Corbel Bold Italic'), local('Corbel-BoldItalic'),
+			url('../fonts/Corbel/Corbel-BoldItalic.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/Corbel/Corbel-BoldItalic.woff') format('woff'),
+				url('../fonts/Corbel/Corbel-BoldItalic.ttf') format('truetype');
+			font-weight: bold;
+		font-style: italic;
+	}
+	
+/* CentSchbkCyrill BT */
+@font-face {
+		font-family: 'CentSchbk';
+		font-display: auto;
+		src: url('../fonts/CentSchbkCyrill-BT.ttf') format('TrueType');
+		font-weight: bold;
+		font-style: normal;
+	}
+	
+/* Brush-Script-MT-Italic */
+@font-face {
+		font-family: 'BrushScript';
+		font-display: auto;
+		src: url('../fonts/Brush-Script-MT-Italic.otf') format('OpenType');
+	}

@@ -1,0 +1,121 @@
+/* Fonts */
+/*@font-face {
+	font-family: 'Roboto';
+font-display: auto;
+src: url('../fonts/Roboto.ttf') format('TrueType'),
+	url('../fonts/Roboto.woff') format('woff'),
+		url('../fonts/Roboto.woff2') format('woff2');
+		}*/
+	/******* Main ********/
+*, *::before, *::after{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	*:empty, *::before:empty, *::after:empty{
+		margin: 0;
+		padding: 0;
+	}
+	p:empty{
+		display: none !important;
+	}
+	section{
+		overflow: hidden;
+		width: 100%;
+	}
+	body{
+		color: #000;
+		min-width: 320px;
+		opacity: 1 !important;
+		font-family: "CentSchbk";
+	}
+	h1, h2, h3, h4, h5, h6{
+		font: normal 230% "CentSchbk";
+		color: #020202;
+		font-weight: 700;
+		line-height: 1;
+	}
+	h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, p.bold, span.bold, section.bold{
+		font-weight: bold;
+	}
+	p, span, a{
+		margin: 5px 0;
+		color: #3e3e3e;
+		font: normal 140% "Corbel";
+		letter-spacing: -.8px;
+	}
+	#wpadminbar span{
+		color: #fff;
+	}
+	b{
+		font-weight: 700;
+	}
+	a{
+		text-decoration: none;
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+	button{
+		color: #000;
+		outline: none;
+		font-family: "Corbel";
+		font-weight: bold;
+	}
+	p:first-child, span:first-child, section:first-child{
+		margin: 0 0 10px 0;
+	}
+	p:last-child, span:last-child, section:last-child{
+		margin: 10px 0 0 0;
+	}
+	p:only-child, span:only-child, section:only-child{
+		margin: 0;
+	}
+	ul, ol{
+		list-style: none;
+	}
+	*[hidden]{
+		display: block !important;
+	}
+	*[visible]{
+		display: none !important;
+	}
+	*.before, *.after{position: relative;}
+*.before::before, *.after::after{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.clearfix{
+		width: 100%;
+		clear: both;
+		overflow: hidden;
+	}
+	.container{
+		position: relative;
+		padding: 0;
+	}
+	.btn{
+		border: none;
+		margin: 0;
+		padding: 7px 12px;
+		font-size: .85em;
+		font-weight: normal;
+		cursor: pointer;
+	}
+	.center{
+		text-align: center;
+	}
+	*:empty:not(img, iframe){
+		/*display: none !important;*/
+		visibility: hidden;
+	}
+	*[v], form input, form textarea, .owl-dots span{
+		visibility: visible !important;
+	}
+/******** End Main ********/
